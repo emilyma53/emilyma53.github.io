@@ -2567,14 +2567,13 @@ input, select, textarea {
 
 	#profile-pic img {
 		border-radius:50%; 
-		width: calc(25%); 
+		width: 15%; 
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: block;
 		position: relative;
-		margin: -8em 0 0 0;
-		/* margin: 0 5em 0 0;  */
+		margin: -4em 4em 0 0;
 		float:right;
 	}
 
@@ -2848,7 +2847,19 @@ input, select, textarea {
 	#header {
 		padding: 8em 0 0.1em 0 ;
 	}
-
+		#header .profile_img {
+			border-radius:50%; 
+			width: calc(20% - 5em); 
+			/* display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex; */
+			display: block;
+			position: relative;
+			margin: -2.5em 0 0 0;
+			/* margin: 0 5em 0 0;  */
+			float:right;
+		}
 		#header .logo {
 			display: block;
 			border-bottom: 0;
