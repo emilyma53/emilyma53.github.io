@@ -2561,6 +2561,23 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	/* #profile-text {
+		/* display: block; */
+	/* } */ 
+
+	#profile-pic img {
+		border-radius:50%; 
+		width: calc(25%); 
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+		margin: -8em 0 0 0;
+		/* margin: 0 5em 0 0;  */
+		float:right;
+	}
+
 /* Tiles */
 
 	.tiles {
@@ -2572,7 +2589,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
