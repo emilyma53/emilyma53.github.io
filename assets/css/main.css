@@ -2568,12 +2568,12 @@ input, select, textarea {
 	#profile-pic img {
 		border-radius:50%; 
 		width: 15%; 
-		display: -moz-flex;
+		/* display: -moz-flex;
 		display: -webkit-flex;
-		display: -ms-flex;
+		display: -ms-flex; */
 		display: block;
 		position: relative;
-		margin: -4em 4em 0 0;
+		margin: -3.5em 3em 0 0;
 		float:right;
 	}
 
