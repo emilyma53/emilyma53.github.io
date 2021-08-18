@@ -2567,7 +2567,7 @@ input, select, textarea {
 
 	#profile-pic img {
 		border-radius:50%; 
-		width: 15%; 
+		width: calc(max(100px, 15%)); 
 		/* display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex; */
