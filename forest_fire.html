@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Emily Ma | Jellyfish Simulation</title>
+		<title>Emily Ma | Forest Fire Simulation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -50,32 +50,33 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Jellyfish Simulation</h1>
+							<h1>Forest Fire Simulation</h1>
 							<div align="center">
 								<table>
 									<tr align="middle">
 										<td align="middle">
-											<img src="images/jellyfish_simulation.png" height="350px" />
-											<!-- <p>final jellyfish wireframe</p> -->
+											<video height="400px" align="center" autoplay=autoplay muted=muted loop=loop>
+												<source src=images/forest_fire1.mp4 type=video/mp4 />
+											</video>
 										</td>
 										<td align="middle">
-											<video width="600px" height="350px" align="center" autoplay=autoplay muted=muted loop=loop>
-												<source src=images/final_jellyfish.mp4 type=video/mp4 />
+											<video height="400px" align="center" autoplay=autoplay muted=muted loop=loop>
+												<source src=images/forest_fire2.mp4 type=video/mp4 />
 											</video>
-											<!-- <p>final jellyfish wireframe top</p> -->
 										</td>
 									</tr>
 								</table>
 							</div>
-							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-							<a href="https://emilyma53.github.io/jellyfish/report.html">Final Project Write-Up</a>
+							<a href="https://github.com/emilyma53/forest-fire">Forest Fire Repository</a>
 							<br> <br>
-							<p>I worked in a group to create a simulation of jellyfish movement underwater as part of a final project for CS184: Foundation of Computer Graphics. 
-								Our project was to render an animated simulation of jellyfish movement in water based on a cloth simulation approximation. For our jellyfish cloth, 
-								we wrote a translucency shader featuring silhouette enhancement. Through triangle sorting and interpolated alpha blending, we achieved a 
-								semi-transparent jellyfish through which the ocean background is visible. For the jellyfish model, we created a spring-mass frame consisting of 
-								point masses and structural, shearing, and bending springs. Force vectors on the spring-mass model simulate jellyfish muscle contraction and 
-								modified gravitational forces simulate water buoyancy.
+							<p>
+								Inspired by the forest fire seasons in California, I simulated how fire spreads through forests. 
+								This simulation uses the idea of cellular automata as each cell in the 2D image has four possible states: 
+								vegetation (green), empty land (brown), burning (orange), and burnt (gray). At each time step, the 
+								simulation uses three probabilities: density of vegetation, chance of ignition, and chance of becoming burnt 
+								to determine the next state for each cell in the forest. These probabilities would be different for each forest 
+								based on the humidity, type of forest vegetation, etc.. The simulation follows the ideas discussed in 
+								"Rodolfo Maduro Almeida and Elbert E N Macau 2011 J. Phys.: Conf. Ser. 285 012038 https://iopscience.iop.org/article/10.1088/1742-6596/285/1/012038/pdf".
 							</p>
 							</div>
 					</div>
