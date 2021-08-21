@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Emily Ma | Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Emily Ma</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_me.html">About Me</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="resume.html">Résumé</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Projects</h1>
+							<h2>Jellyfish Simulation</h2>
+							<div align="center">
+								<table>
+									<tr align="middle">
+										<td align="middle">
+											<img src="images/jellyfish_simulation.png" width="158%" />
+										</td>
+										<td align="middle">
+											<video width="55%" align="center" autoplay=autoplay muted=muted loop=loop>
+												<source src=images/final_jellyfish.mp4 type=video/mp4 />
+											</video>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<a href="https://emilyma53.github.io/jellyfish/report.html">Final Project Write-Up</a>
+							<br> <br>
+							<p>I worked in a group to create a simulation of jellyfish movement underwater as part of a final project for CS184: Foundation of Computer Graphics. 
+								Our project was to render an animated simulation of jellyfish movement in water based on a cloth simulation approximation. For our jellyfish cloth, 
+								we wrote a translucency shader featuring silhouette enhancement. Through triangle sorting and interpolated alpha blending, we achieved a 
+								semi-transparent jellyfish through which the ocean background is visible. For the jellyfish model, we created a spring-mass frame consisting of 
+								point masses and structural, shearing, and bending springs. Force vectors on the spring-mass model simulate jellyfish muscle contraction and 
+								modified gravitational forces simulate water buoyancy.
+							</p>
+							<br>
+
+							<h2>Forest Fire Simulation</h2>
+							<div align="center">
+								<table>
+									<tr align="middle">
+										<td align="middle">
+											<video width="100%" align="center" autoplay=autoplay muted=muted loop=loop>
+												<source src=images/forest_fire1.mp4 type=video/mp4 />
+											</video>
+										</td>
+										<td align="middle">
+											<video width="100%" align="center" autoplay=autoplay muted=muted loop=loop>
+												<source src=images/forest_fire2.mp4 type=video/mp4 />
+											</video>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<a href="https://github.com/emilyma53/forest-fire">Forest Fire Repository</a>
+							<br> <br>
+							<p>
+								Inspired by the forest fire seasons in California, I simulated how fire spreads through forests. 
+								This simulation uses the idea of cellular automata as each cell in the 2D image has four possible states: 
+								vegetation (green), empty land (brown), burning (orange), and burnt (gray). At each time step, the 
+								simulation uses three probabilities: density of vegetation, chance of ignition, and chance of becoming burnt 
+								to determine the next state for each cell in the forest. These probabilities would be different for each forest 
+								based on the humidity, type of forest vegetation, etc.. The simulation follows the ideas discussed in 
+								"Rodolfo Maduro Almeida and Elbert E N Macau 2011 J. Phys.: Conf. Ser. 285 012038 https://iopscience.iop.org/article/10.1088/1742-6596/285/1/012038/pdf".
+							</p>
+							<br>
+
+							<h2>Glade of the Gray</h2>
+							<div align="center">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/UyuIIs9Qpbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<br>
+							<a href="https://fire2ken.itch.io/glade-of-the-gray">Glade of the Gray Game Link</a>
+							<br> <br>
+							<p> 
+								Glade of the Gray is a deck-based dungeon crawler where the player’s party of misfits 
+								will battle to complete quests. Each member of the party will have their own deck of 
+								unique skills they can use in battle. By traversing the dungeon, the user can pick up 
+								items, interact with change fortunes, and encounter enemies. 
+
+								For this game, I worked with a team to create this in Unity. I coded the logic for dungeon traversals 
+								by randomizing enemies, items, and creating dungeon maps. I also created interactables such as fortune tellers, 
+								slot machines, and item chests for the dungeon.
+							</p>
+							<br>
+
+							<h2>Planetary Simulation Plots</h2>
+							<div align="center">
+								<video width="90%" align="center" controls>
+									<source src=images/uranus.mp4 type=video/mp4 />
+								</video>
+							</div>
+							<br> <br>
+							<p>
+								I processed simulation data of the atmosphere's of Jupiter and Uranus. I ran many experiments 
+								with different parameters such as cooling rates and simulation grid size to converge on realistic conditions. Additionally, I created plots 
+								and videos to analyze the atmospheric simulations and compare the outputs to expected behavior. 
+								These plots observed pressure, temperature, velocity, potential temperature, and more over time. Above 
+								is an example video of the horizontal velocity of Uranus atmosphere over time.
+							</p>
+							<br>
+
+							<h2>Water Cycle</h2>
+							<div align="center">
+								<video height="500px" align="center" controls>
+									<source src=images/water_cycle.mov type=video/mp4 />
+								</video>
+							</div>
+							<br>
+							<a href="http://www.ucbugg.com/static/index.html">UCBUGG Course Website</a>
+							<br> <br>
+							<p> 
+								I animated this 3D short along with three other teammates. The concept for the story is 
+								a water droplet comes to life after a rainstorm. The droplet is fascinated by the nearby waterfall 
+								and wants to go into the waterfall. Through the phases of the water cycle, the droplet fulfills 
+								its dream as it rains into the waterfall pond. 
+								This short was created using Maya 3D animation software. I modeled the cloud, rocks, and 
+								many of the background objects such as the flowers and pond. I also did a lot of the lighting and animation.
+							</p>
+							<br>
+
+							<h2>Brown Dwarf Database</h2>
+							<div align="center">
+								<img src="images/brown_dwarf_page.png" width="60%"/>
+							</div>
+							<br>
+							<a href="https://github.com/emilyma53/brown-dwarfs">Brown Dwarf Database Repository</a>
+							<br> <br>
+							<p>
+								For a summer research project, I compiled a database of brown dwarfs likely to observe 
+								polarization. I researched characteristics that would allow for high quantities of 
+								polarization. Some variables I looked for were high rotational velocity, low surface 
+								gravity, and young age. I looked through past research findings for brown dwarf 
+								polarization candidates. I also wrote functions to query large astronomy databases such 
+								as Simbad to fill in missing characteristics and filter for more candidates.
+							</p>
+							<br>
+
+							<h2>Game of Chess</h2>
+							<div align="center">
+								<img src="images/chess.png" width="60%"/>
+							</div>
+							<br>
+							<a href="https://github.com/emilyma53/chess">Chess Repository</a>
+							<br> <br>
+							<p>
+								Game of chess that follows the usual rules. I created an in-terminal chess game 
+								that two players can compete against each other. The game will prompt the player 
+								to enter a move and only accepts valid moves given the piece type and current player. The chess game 
+								will also calculate each player's total points and captured pieces so far. This was created 
+								in Python for fun.
+							</p>
+							<br>
+
+							<h2>Farm Stampede</h2>
+							<div align="center">
+								<img src="images/farm_stampede.png" width="60%"/>
+							</div>
+							<br>
+							<a href="https://github.com/emilyma53/FarmStampede">Farm Stampede Repository</a>
+							<br> <br>
+							<p>
+								Move and jump to dodge the farm animals charging towards you! The longer you survive, the higher your score will be. 
+								You can also collect coins to increase your score. This game was created in a pair as part of the Game Design and Development course.
+								Everything was made in Unity.
+							</p>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Get in touch</h2>
+							<ul class="icons">
+								<li><a href="mailto: emilyma53@berkeley.edu" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/emilyma53" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/emilyma53/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+
+						<ul class="copyright">
+							<li>&copy; Emily Ma 2021. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
