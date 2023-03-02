@@ -2327,7 +2327,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 85%;
 			}
 
 		.image.left {
@@ -2561,16 +2561,9 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-	/* #profile-text {
-		/* display: block; */
-	/* } */ 
-
 	#profile-pic img {
 		border-radius:50%; 
 		width: calc(max(100px, 15%)); 
-		/* display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex; */
 		display: block;
 		position: relative;
 		margin: -2em 3em 0 0;
